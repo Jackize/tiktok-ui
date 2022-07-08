@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .container {
@@ -12,6 +11,5 @@
 
 .content {
     flex: 1;
-    background-color: #ccc;
     min-height: 1000px;
 }
