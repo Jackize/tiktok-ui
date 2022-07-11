@@ -3,6 +3,8 @@ import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark, faMagnifyingGlass, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import Tippy from '@tippyjs/react/headless';
+
+import Button from '~/component/Button';
 import { Wrapper as PopperWrapper } from '../../Popper';
 import styles from './Header.module.scss';
 import logos from '~/assets/logo';
@@ -50,7 +52,8 @@ function Header() {
                     </div>
                 </Tippy>
                 <div className={cx('actions')}>
-                    <h1>Actions</h1>
+                    <Button text>Upload</Button>
+                    <Button primary>Log in</Button>
                 </div>
             </div>
         </header>
