@@ -1,0 +1,21 @@
+//Menu wrapper
+.menu-list {
+    width: 224px;
+    .menu-item {
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 22px;
+        text-align: left;
+        padding: 13px 16px;
+        background-color: transparent;
+
+        &:hover {
+            background: rgba(22, 24, 35, 0.03);
+            cursor: pointer;
+        }
+    }
+}
+
+.menu-popper {
+    padding-bottom: 8px;
+}
