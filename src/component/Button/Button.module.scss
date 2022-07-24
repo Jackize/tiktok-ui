@@ -66,6 +66,15 @@
     }
 }
 
+.outline_normal {
+    color: var(--text-color);
+    border-color: rgba(22, 24, 35, 0.12);
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
 .text {
     &:hover {
         text-decoration: underline;

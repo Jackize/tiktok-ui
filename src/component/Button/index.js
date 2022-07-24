@@ -9,6 +9,7 @@ function Button({
     href,
     primary = false,
     outline = false,
+    outline_normal = false,
     text = false,
     rounded = false,
     disabled = false,
@@ -46,6 +47,7 @@ function Button({
     const classes = cx('wrapper', {
         primary,
         outline,
+        outline_normal,
         text,
         rounded,
         disabled,
