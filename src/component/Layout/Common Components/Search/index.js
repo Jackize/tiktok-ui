@@ -58,6 +58,7 @@ function Search() {
     return (
         <HeadlessTippy
             interactive
+            appendTo={() => document.body}
             visible={showResult && searchResult.length > 0}
             render={(attrs) => (
                 <div className={cx('search-results')} tabIndex="-1" {...attrs}>
